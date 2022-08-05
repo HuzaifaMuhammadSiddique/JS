@@ -1,0 +1,11 @@
+function fact(n) {
+    let r = 1;
+    for (i = n; i > 0; i--){
+        r = r * i;                    
+    }
+
+    return r;
+}
+
+
+console.log(fact(3));
