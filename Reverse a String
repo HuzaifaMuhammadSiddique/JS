@@ -1,0 +1,12 @@
+let name = "abcdefghijklmnopqrstuvwxyz";
+
+function rev(word) {
+    
+    let empty = ""; 
+    for (let i = word.length - 1; i > -1; i--){
+        empty = empty + word[i];
+    }
+    return empty;
+}
+
+console.log(rev(name));
